@@ -1,0 +1,17 @@
+# API stands for Application Programming Interface.
+
+# When you use Postman to send a request to your backend,
+ Postman acts as the client.
+
+# 3.4 What is a virtual environment?
+Imagine you have two college projects.
+●	Project A requires version 1 of a particular Python library.
+●	Project B requires version 2 of the same library.
+If both projects use the same global package installation,
+ their requirements may conflict.
+A virtual environment gives each Python project its own isolated 
+package environment.
+Think of it as a separate toolbox for each project.
+We will name our virtual environment .venv.
+On Windows:
+py -m venv .venv
