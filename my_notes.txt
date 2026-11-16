@@ -15,3 +15,6 @@ Think of it as a separate toolbox for each project.
 We will name our virtual environment .venv.
 On Windows:
 py -m venv .venv
+
+# if you want to install fastapi than add this command :- 
+ans :- pip install fastapi "uvicorn[standard]"
